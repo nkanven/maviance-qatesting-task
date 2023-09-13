@@ -18,7 +18,7 @@ tracemalloc.start()
 load_dotenv()
 
 
-class TestSalixnigra(unittest.TestCase):
+class TestSmobilpay(unittest.TestCase):
     chrome_options = None
 
     @classmethod
@@ -78,6 +78,7 @@ class TestSalixnigra(unittest.TestCase):
             check_result = False
 
         self.assertTrue(check_result)
+        self.driver.quit()
 
     def test_check_inputs(self):
         self.login(os.getenv("user"), os.getenv("password"))
