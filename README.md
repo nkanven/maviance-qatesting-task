@@ -7,7 +7,7 @@ See the .env for login credentials
 
 ### TASK: Test Case Writing
  Prepare functional and non-functional test cases with detailed steps and other
-important information a test case should have for the above web page.
+important information a test case should have for the above web page. 
  Write the test cases in an Excel file.
 
 ### TASK 2: Test Case Automation
