@@ -29,7 +29,7 @@ GET https://analyticshub.googleapis.com/$discovery/rest?version=v1
 
 
 # Deployment
-Install the dependecies on requirements.txt 
+Install the dependencies on requirements.txt 
 Functional Test automations were made using Selenium Python.
 
 Non functional (Performance / Load) tests were done with python library Locust.
