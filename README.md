@@ -26,3 +26,8 @@ issues.
 Create a Postman request to call the below API URL and list down the response
 validations you would perform.
 GET https://analyticshub.googleapis.com/$discovery/rest?version=v1
+
+
+# Deployment
+Install the dependecies on requirements.txt and launch `locust` cmd to run performance / load test.
+Web UI test can be accessible through http://0.0.0.0:8089
