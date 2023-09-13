@@ -1,0 +1,4 @@
+TestIamPermissionsResponse
+ListDataExchangesResponse
+SubscribeDataExchangeResponse
+RefreshSubscriptionResponse

@@ -1,0 +1,45 @@
+Defect ID: DF-001.
+Defect Title: Accept unlimited bank account number.
+Defect Description: The bank account number field accept unlimited number input from the user.
+Environment: Google Chrome Browser version 118.
+Severity: High.
+Priority: High.
+Steps to Reproduce: Login, go to remittance page, select Nigeria as receiving country, choose bank transfer method and enter bank account.
+Expected Result: Nigeria Bank account digits format or IBAN.
+Actual Result: digits.
+Workaround: There's no possible workaround. This may cause client to enter invalid bank account details.
+Assigned To: IT team.
+Status: Open.
+Date Created: 13/0/2023.
+Date Last Updated: 13/0/2023.
+
+
+Defect ID: DF-002.
+Defect Title: Scealed fields.
+Defect Description: User cannot changed populated information when there are already filled. For instance, user cannot change a payment method from Orange Money to Bank account.
+Environment: Google Chrome Browser version 118.
+Severity: Medium.
+Priority: Medium.
+Steps to Reproduce: Login, go to remittance page, select Nigeria as receiving country, select a delivery method and a delivery channel and try to change them.
+Expected Result: Being able to freely change the methods.
+Actual Result: Input are disabled, cannot be changed.
+Workaround: There's no possible workaround. This may cause frustration to client who doesn't want to restart the whole procedure.
+Assigned To: IT team.
+Status: Open.
+Date Created: 13/0/2023.
+Date Last Updated: 13/0/2023.
+
+Defect ID: DF-003.
+Defect Title: Rolling back clean all fields.
+Defect Description: When a user is already on the next step of sending, if he roll back to the previous step, all the inputs are wiped out.
+Environment: Google Chrome Browser version 118.
+Severity: Medium.
+Priority: Medium.
+Steps to Reproduce: Login, go to remittance page, fill the step 1 form, go to next step and fill the user's info then press back.
+Expected Result: User should get the informations he previously filled.
+Actual Result: All inputs are wiped out.
+Workaround: There's no possible workaround. This may cause frustration to client who doesn't want to restart the whole procedure.
+Assigned To: IT team.
+Status: Open.
+Date Created: 13/0/2023.
+Date Last Updated: 13/0/2023.
