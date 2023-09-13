@@ -29,5 +29,9 @@ GET https://analyticshub.googleapis.com/$discovery/rest?version=v1
 
 
 # Deployment
-Install the dependecies on requirements.txt and launch `locust` cmd to run performance / load test.
+Install the dependecies on requirements.txt 
+Functional Test automations were made using Selenium Python.
+
+Non functional (Performance / Load) tests were done with python library Locust.
+Launch `locust` cmd to run performance / load test.
 Web UI test can be accessible through http://0.0.0.0:8089
